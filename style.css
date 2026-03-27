@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f9fc;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card-vip {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.card-vip h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-vip p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.button-holder {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+
+#btn-wpp, #btn-tg { 
+    padding: 18px 35px; 
+    border-radius: 50px; 
+    font-weight: bold;
+    transition: all 0.3s ease-in-out; 
+} 
+
+#btn-wpp:hover, #btn-tg:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+#btn-wpp{
+    background-color: #25d366;
+    margin-bottom: 1.5rem;
+}
+
+#btn-tg{
+    background-color: #0084ff;
+}
