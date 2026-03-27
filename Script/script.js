@@ -10,7 +10,7 @@ function trackGrupoVIP(event, url, nomeDoCanal) {
   });
 
   setTimeout(function () {
-    window.location.href = url;
+    //window.location.href = url;
   }, 500);
 }
 
